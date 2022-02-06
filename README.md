@@ -17,3 +17,24 @@ The program permutation returns the permutation of the array passed as argument:
 ```
 python .\permutation.py 1 2 3 4
 ```
+
+## Arithmetic Progression
+Arithmetic progression is a sequence of numbers whose the difference between the terms is a constant value usually called as root.
+
+### Find a term of sequence
+
+Given the first term as a1 and a common difference (root) as r, how could we figure out the n term:
+
+```
+f(n) = a1 + (n - 1) * r
+```
+
+argv[1] = First Term
+argv[2] = Common difference (root of arithmetic progression)
+argv[3] = Term we would like to find
+
+```
+python .\arithmetic-progression\findSequence.py 2 3 3
+```
+
+
