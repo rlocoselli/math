@@ -37,4 +37,5 @@ argv[3] = Term we would like to find
 python .\arithmetic-progression\findSequence.py 2 3 3
 ```
 
-
+### Palindromic Triangle
+Generates a palindromic triangle which shows number as they were a mirror o the first figures based on power of 11.
